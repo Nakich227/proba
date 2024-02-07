@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="proba.Page2"
+             Title="zd 2">
+    <Grid>
+        <StackLayout VerticalOptions="Center">
+            <StackLayout VerticalOptions="Center" Orientation="Horizontal">
+                <Label VerticalOptions="Center" FontSize="20" Text="L = "/>
+                <Entry HorizontalOptions="FillAndExpand" x:Name="AA" Keyboard="Numeric"/>
+            </StackLayout>
+            <Button Clicked="Button_Clicked" Text="посчитать"/>
+        </StackLayout>
+        <StackLayout VerticalOptions="End">
+            <Button Clicked="Button_Clicked_1" Text="zd 3"/>
+        </StackLayout>
+    </Grid>
+</ContentPage>

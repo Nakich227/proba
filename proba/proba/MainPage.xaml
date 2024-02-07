@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="proba.MainPage"
+             Title="Главная страница">
+
+    <Grid>
+        <StackLayout VerticalOptions="Center" Orientation="Vertical">
+            <Button Clicked="Button_Clicked_1" Text="zd 1"/>
+        </StackLayout>
+    </Grid>
+
+</ContentPage>

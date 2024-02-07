@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="proba.Page3"
+             Title="zd 3">
+    <Grid>
+        <StackLayout VerticalOptions="Center">
+            <StackLayout VerticalOptions="Center" Orientation="Horizontal">
+                <Label VerticalOptions="Center" FontSize="20" Text="A"/>
+                <Entry HorizontalOptions="FillAndExpand" x:Name="AA" Keyboard="Numeric"/>
+            </StackLayout>
+            <StackLayout VerticalOptions="Center" Orientation="Horizontal">
+                <Label VerticalOptions="Center" FontSize="20" Text="B"/>
+                <Entry HorizontalOptions="FillAndExpand" x:Name="BB" Keyboard="Numeric"/>
+            </StackLayout>
+            <StackLayout VerticalOptions="Center" Orientation="Horizontal">
+                <Label VerticalOptions="Center" FontSize="20" Text="С"/>
+                <Entry HorizontalOptions="FillAndExpand" x:Name="CC" Keyboard="Numeric"/>
+            </StackLayout>
+            <Button Clicked="Button_Clicked" Text="Посчитать"/>
+        </StackLayout>
+        <StackLayout VerticalOptions="End">
+            <Button Clicked="Button_Clicked_1" Text="na glavnyu"/>
+        </StackLayout>
+
+    </Grid>
+</ContentPage>
